@@ -1,10 +1,6 @@
-//require dotenv package
-require('dotenv').config();
 
-//use the stored API key from .env
-const API_KEY = process.env.API_KEY;
 
-console.log('Your API Key is ', API_KEY);
+const apikey = "1844b41a825c3239cf50cb0d2a5538f6";
 
 const main = document.getElementById("main");
 const form = document.getElementById("form");
